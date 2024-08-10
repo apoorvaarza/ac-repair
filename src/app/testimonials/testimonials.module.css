@@ -1,0 +1,11 @@
+.container {
+    background-color: var(--theme2);
+    color: white;
+    min-height: 200px;
+}
+
+.testimonial  {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}

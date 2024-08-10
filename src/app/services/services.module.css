@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service img {
+    border-radius: 16px;
+    width: 200px;
+}
+
+.title {
+    color: var(--theme);
+}

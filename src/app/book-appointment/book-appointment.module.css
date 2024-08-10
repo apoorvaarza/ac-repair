@@ -1,0 +1,6 @@
+.container {
+    background-color: var(--theme1);
+    color: white;
+    min-height: 200px;
+    text-align: center;
+}
