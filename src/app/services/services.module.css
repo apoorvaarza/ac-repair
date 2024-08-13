@@ -1,12 +1,18 @@
 .container {
     display: grid;
+    gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .service {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .service img {

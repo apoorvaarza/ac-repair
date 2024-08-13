@@ -9,12 +9,12 @@ const HeroBanner = () => {
       <div className={styles.title}>
         <div>Expert AC Repair & Maintainance Services in Hyderabad</div>
         <FontAwesomeIcon
-          style={{ fontSize: "50px", paddingTop: '8rem' }}
+          className={styles.chevron}
           icon={faChevronDown}
         ></FontAwesomeIcon>
       </div>
 
-      <a href="http://www.freepik.com">Designed by Freepik</a>
+      <a href="https://www.freepik.com/" target="_blank">Designed by Freepik</a>
     </>
   );
 };

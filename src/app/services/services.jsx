@@ -3,12 +3,12 @@ import styles from "./services.module.css";
 
 const Services = () => {
   const services = [
-    { image: "/repair.png", caption: "AC Repair" },
-    { image: "/fan.png", caption: "Air Fan & Filter Replacement" },
-    { image: "/maintainance.png", caption: "AC Maintainance" },
-    { image: "/installation.png", caption: "AC Installation & Uninstallation" },
-    { image: "/thermostat.png", caption: "Gas & Thermostat Replacement" },
-    { image: "/fan.png", caption: "Copper Wires for AC" },
+    { image: "/repair.jpg", caption: "AC Repair" },
+    { image: "/filter.jpg", caption: "Air Fan & Filter Replacement" },
+    { image: "/maintainance.jpg", caption: "AC Maintainance" },
+    { image: "/installation.jpg", caption: "AC Installation & Uninstallation" },
+    { image: "/thermostat.jpg", caption: "Gas & Thermostat Replacement" },
+    { image: "/copper.jpg", caption: "Copper Wires for AC" },
   ];
   return (
     <section id="services">

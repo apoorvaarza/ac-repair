@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section id="about-us">
       <h1>About Us</h1>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-2 gap-4">
         <p className="flex items-center">
           Our business, a novel venture, specializes in servicing and repairing
           air conditioning units for both residential and commercial spaces

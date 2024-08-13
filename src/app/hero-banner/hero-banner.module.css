@@ -8,9 +8,22 @@
 }
 
 .title {
-    font-size: 48px;
-    padding: 0 10rem;
-    position: absolute;
-    text-align: center;
-    top: 235px;
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  padding: 0 10rem;
+  position: absolute;
+  text-align: center;
+  top: 235px;
+  @media screen and (max-width: 767px) {
+    padding: 0 4rem;
+  }
+}
+
+.chevron {
+  font-size: 50px;
+  padding-top: 8rem;
+  @media screen and (max-width: 767px) {
+    padding-top: 4rem;
+  }
 }
