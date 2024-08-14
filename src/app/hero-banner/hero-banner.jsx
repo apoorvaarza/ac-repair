@@ -14,7 +14,7 @@ const HeroBanner = () => {
         ></FontAwesomeIcon>
       </div>
 
-      <a href="https://www.freepik.com/" target="_blank">Designed by Freepik</a>
+      <a className="text-xs" href="https://www.freepik.com/" target="_blank">Image courtesy Freepik</a>
     </>
   );
 };

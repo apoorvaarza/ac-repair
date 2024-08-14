@@ -26,9 +26,9 @@ const Header = () => {
     }
   }, [isClient]);
   return (
-    <div className="h-20 bg-gradient-to-r from-[#528478] to-[#5C968A] grid grid-rows-1 grid-cols-3 text-white px-16">
+    <div className="h-20 bg-gradient-to-r from-[#528478] to-[#5C968A] grid grid-rows-1 md:grid-cols-3 text-white px-16">
       {/* <div className="h-20 bg-gradient-to-r from-[#528478] to-[#5C968A] flex justify-between items-center text-white"> */}
-      <div className="col-span-1">Logo</div>
+      <div className="flex align-center items-center justify-center col-span-1">Logo</div>
       {!mobile && (
         <div className="col-span-2 flex justify-between items-center">
           {navLinks.map((linkItem, i) => {
